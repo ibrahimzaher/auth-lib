@@ -1,6 +1,6 @@
 {
   "name": "@izaher-dev/auth",
-  "version": "0.0.5",
+  "version": "0.0.8",
   "author": "Ibrahim Zaher",
   "license": "MIT",
   "peerDependencies": {
@@ -10,5 +10,13 @@
   "main": "bundles/auth.umd.js",
   "module": "fesm2015/auth.js",
   "es2015": "fesm2015/auth.js",
-  "typings": "auth.d.ts"
+  "typings": "auth.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ibrahimzaher/auth-lib"
+  },
+  "bugs": {
+    "url": "https://github.com/ibrahimzaher/auth-lib/issues"
+  },
+  "homepage": "https://github.com/ibrahimzaher/auth-lib#readme"
 }
