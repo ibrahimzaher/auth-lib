@@ -4,11 +4,13 @@
 
 // Domain
 export * from './lib/domain/entities/user';
+export * from './lib/domain/responses/auth-response';
+
 export * from './lib/domain/use-cases/change-password.usecase.service';
 export * from './lib/domain/use-cases/register.usecase.service';
 export * from './lib/domain/use-cases/delete-me.usecase.service';
 export * from './lib/domain/use-cases/edit-profile.usecase.service';
-export * from './lib/domain/use-cases/forget-paswword.usecase.service';
+export * from './lib/domain/use-cases/forget-password.usecase.service';
 export * from './lib/domain/use-cases/login.usecase.service';
 export * from './lib/domain/use-cases/logout.usecase.service';
 export * from './lib/domain/use-cases/profile-data.usecase.service';
