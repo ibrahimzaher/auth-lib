@@ -2,7 +2,6 @@
  * Public API Surface of auth
  */
 
-
 // Domain
 export * from './lib/domain/entities/user';
 export * from './lib/domain/use-cases/change-password.usecase.service';
@@ -21,11 +20,3 @@ export * from './lib/config/api-config.token';
 
 // DI
 export * from './lib/di/auth.di';
-
-// Application
-export * from './lib/application/auth-facade';
-
-
-
-
-
